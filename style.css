@@ -63,3 +63,29 @@ body{
 #box5{
     background-color: #D50B8B;
 }
+
+/* Mobile view */
+@media screen and (max-width:768px) {
+    .container{
+        width: 100%;
+        text-align: center;
+    }
+
+    .color-container{
+        width: 50%;
+        height: 60vh;
+        flex-direction: column;
+    }
+    .container h2{
+        font-size: 1.5rem;
+    }
+    .container img{
+        width: 100px;
+        height: 100px;
+    }
+    .container p{
+        font-size: 0.9rem;
+        margin-bottom: 10px;
+    }
+    
+}
